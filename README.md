@@ -14,7 +14,7 @@ in an isolated Docker lab.
 | `cups_detector.py` | Scapy detection tool — flags unauthorized adverts, suspicious IPP callbacks, malformed fields, and floods. |
 | `requirements.txt` | Python dependencies. |
 | `pcap_files/` | Captured network traffic (one capture per experiment). |
-| `evidence/` | Detector logs, screenshots |
+| `evidence/` | Detector logs, alert CSVs, and screenshots |
 
 The vulnerable environment itself is **not** committed. Clone
 it separately (below).
@@ -59,13 +59,16 @@ sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}
 sudo python3 cups_detector.py --iface <iface> \
     [--known-printers known_printers.csv] \
     [--window 10] [--threshold 5] \
-    [--filter "udp port 631 or tcp"] [-v]
+    [--filter "udp port 631 or tcp"] \
+    [--csv alerts.csv] [--json alerts.json] [-v]
 ```
 
 - `--known-printers` — CSV allowlist, format `ip,name,port`. Advertisers not in
   the list are flagged `[UNAUTHORIZED AD]`.
 - `--window` / `--threshold` — flood detection (default: more than 5
   announcements from one source within 10 s raises `[FLOOD]`).
+- `--csv` / `--json` — export the alerts to a CSV or JSON file (columns
+  `timestamp, alert, source, detail`). CSV rows are written live, JSON on exit.
 - Alerts: `[UNAUTHORIZED AD]`, `[SUSPICIOUS IPP]`, `[MALFORMED]`, `[FLOOD]`.
 
 ### Attack
@@ -104,6 +107,9 @@ sudo python3 cups_attack.py --adv-ip <callback-ip> [--target <victim-ip>] \
 4. **Detection evaluation** — true positives, false positives (e.g. a legitimate
    printer on a non-standard port), and missed attacks (allowlisted/spoofed
    source, or the mDNS/DNS-SD path the filter does not watch).
+
+Each run has a matching `detector_*.log` and `detector_*.csv` in `evidence/`,
+and a capture in `pcap_files/`.
 
 ## Mitigation
 

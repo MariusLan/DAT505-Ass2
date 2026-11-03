@@ -1,0 +1,8 @@
+timestamp,alert,source,detail
+16:52:25,UNAUTHORIZED AD,172.18.0.1,advertised 172.18.0.1:8631
+16:52:25,MALFORMED,172.18.0.1,not known IP: 172.18.0.1; unexpected port number: 8631 uri=http://172.18.0.1:8631/printers/testprinter
+16:52:25,SUSPICIOUS IPP,172.18.0.1:8631,connection to attacker-advertised printer 172.18.0.1:8631
+16:52:25,SUSPICIOUS IPP,172.18.0.1:8631,connection to attacker-advertised printer 172.18.0.1:8631
+16:52:25,SUSPICIOUS IPP,172.18.0.1:8631,connection to attacker-advertised printer 172.18.0.1:8631
+16:52:25,SUSPICIOUS IPP,172.18.0.1:8631,connection to attacker-advertised printer 172.18.0.1:8631
+16:52:25,SUSPICIOUS IPP,172.18.0.1:8631,connection to attacker-advertised printer 172.18.0.1:8631

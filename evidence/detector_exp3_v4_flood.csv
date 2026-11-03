@@ -1,0 +1,12 @@
+timestamp,alert,source,detail
+08:45:47,MALFORMED,172.18.0.1,unexpected port number: 9999 uri=http://172.18.0.1:9999/printers/flood1
+08:45:48,MALFORMED,172.18.0.1,unexpected port number: 9999 uri=http://172.18.0.1:9999/printers/flood2
+08:45:48,MALFORMED,172.18.0.1,unexpected port number: 9999 uri=http://172.18.0.1:9999/printers/flood3
+08:45:49,MALFORMED,172.18.0.1,unexpected port number: 9999 uri=http://172.18.0.1:9999/printers/flood4
+08:45:50,MALFORMED,172.18.0.1,unexpected port number: 9999 uri=http://172.18.0.1:9999/printers/flood5
+08:45:50,FLOOD,172.18.0.1,6 announcements in 10s
+08:45:50,MALFORMED,172.18.0.1,unexpected port number: 9999 uri=http://172.18.0.1:9999/printers/flood6
+08:45:51,FLOOD,172.18.0.1,7 announcements in 10s
+08:45:51,MALFORMED,172.18.0.1,unexpected port number: 9999 uri=http://172.18.0.1:9999/printers/flood7
+08:45:51,FLOOD,172.18.0.1,8 announcements in 10s
+08:45:51,MALFORMED,172.18.0.1,unexpected port number: 9999 uri=http://172.18.0.1:9999/printers/flood8

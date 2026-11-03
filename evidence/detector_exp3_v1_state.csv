@@ -1,0 +1,2 @@
+timestamp,alert,source,detail
+15:09:12,MALFORMED,172.18.0.1,abnormal printer-state: 99; unexpected port number: 9999 uri=http://172.18.0.1:9999/printers/v1state

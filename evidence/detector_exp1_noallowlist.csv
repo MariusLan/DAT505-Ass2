@@ -1,0 +1,4 @@
+timestamp,alert,source,detail
+14:57:03,UNAUTHORIZED AD,172.18.0.1,advertised 172.18.0.1:631
+14:57:03,MALFORMED,172.18.0.1,not known IP: 172.18.0.1 uri=http://172.18.0.1:631/printers/LabPrinter
+14:57:03,SUSPICIOUS IPP,172.18.0.1:631,connection to attacker-advertised printer 172.18.0.1:631
