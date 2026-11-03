@@ -4,9 +4,7 @@ DAT505 Assignment 2 — Marius Langeland
 
 Scapy-based tools that demonstrate and detect insecure CUPS printer discovery
 (the CVE-2024-47176 class), plus a mitigation experiment. All work is performed
-in an isolated Docker lab — no public, university, or third-party system is
-involved, and the attack tool is scoped to **discovery**, not remote code
-execution.
+in an isolated Docker lab.
 
 ## Repository layout
 
@@ -16,10 +14,9 @@ execution.
 | `cups_detector.py` | Scapy detection tool — flags unauthorized adverts, suspicious IPP callbacks, malformed fields, and floods. |
 | `requirements.txt` | Python dependencies. |
 | `pcap_files/` | Captured network traffic (one capture per experiment). |
-| `evidence/` | Detector logs, screenshots, and the allowlist CSVs. |
-| `main.tex` | Written report (environment, tools, experiments, results, mitigation, ethics). |
+| `evidence/` | Detector logs, screenshots |
 
-The vulnerable environment itself is **not** committed (see `.gitignore`); clone
+The vulnerable environment itself is **not** committed. Clone
 it separately (below).
 
 ## Requirements
@@ -74,26 +71,39 @@ sudo python3 cups_detector.py --iface <iface> \
 ### Attack
 
 ```bash
-sudo python3 cups_attack.py --adv-ip <callback-ip> --target <victim-ip> \
-    [--queue <name>] [--adv-port <port>]
+sudo python3 cups_attack.py --adv-ip <callback-ip> [--target <victim-ip>] \
+    [-h] [--target TARGET] [--target-port TARGET_PORT] \
+    [--adv-port ADV_PORT] [--queue QUEUE] [-v] [--iface IFACE] \
+    [--pcap PCAP] [--listen-timeout LISTEN_TIMEOUT] [--state STATE] \
+    [--printer-type PRINTER_TYPE] [--no-listen]
 ```
 
-- `--adv-ip` — address advertised as the printer (where the victim connects back).
-- `--target` — the victim's `cups-browsed` host (UDP 631).
+| Flag | Description |
+|------|-------------|
+| `--adv-ip <callback-ip>` | Address advertised as the printer, i.e. where the victim connects back. |
+| `--target <victim-ip>` | The victim's `cups-browsed` host; the UDP 631 announcement is sent here. |
+| `--target-port <port>` | UDP port on the victim that `cups-browsed` listens on (default 631). |
+| `--adv-port <port>` | Port placed in the advertised printer URI — the port the victim connects back to on `--adv-ip` (e.g. `631` normal, `9999` crafted). |
+| `--queue <name>` | Printer/queue name embedded in the advertised URI (e.g. `LabPrinter`, `evilprinter`, `flood1`). |
+| `--state <value>` | `printer-state` field in the browse packet; normal is 3/4/5, a crafted value such as `99` tests the detector. |
+| `--printer-type <value>` | `type` field (normally hex, e.g. `0x1000002`); a non-hex value such as `zzz` tests validation. |
+| `--iface <iface>` | Network interface used to send the announcement and observe the callback. |
+| `--pcap <file>` | Write captured packets to this pcap file. |
+| `--listen-timeout <seconds>` | How long to wait for the victim's callback before giving up (the `No callback within Ns` message). |
+| `--no-listen` | Don't open the callback listener / don't wait for the victim to connect back (fire-and-forget, as in the flood loop). |
+| `-v`, `--verbose` | Verbose logging. |
+| `-h`, `--help` | Show the usage message and exit. |
 
 ## Experiments
 
-1. **Normal traffic** — a well-formed, allowlisted advert on port 631; no alerts.
-2. **Unauthorized discovery** — advert from an unknown source; `[UNAUTHORIZED AD]`
+1. **Normal traffic** — a well-formed, allowlisted advert on port 631 -> no alerts.
+2. **Unauthorized discovery** — advert from an unknown source: `[UNAUTHORIZED AD]`
    + `[SUSPICIOUS IPP]` on the callback.
 3. **Packet manipulation** — four crafted variants: abnormal `printer-state`,
    invalid `type`, non-standard `port`, and a flood of 8 announcements.
 4. **Detection evaluation** — true positives, false positives (e.g. a legitimate
    printer on a non-standard port), and missed attacks (allowlisted/spoofed
    source, or the mDNS/DNS-SD path the filter does not watch).
-
-See `main.tex` for the full analysis, and `pcap_files/` + `evidence/` for the
-raw captures and logs.
 
 ## Mitigation
 
