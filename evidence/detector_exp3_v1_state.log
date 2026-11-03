@@ -1,0 +1,7 @@
+15:08:57 [INFO] Listening on br-60480b7c1bbb (filter: udp port 631 or tcp)
+15:08:57 [INFO] Known printers: {'172.18.0.50': {'ip': '172.18.0.50', 'name': 'OfficeLaser', 'port': '631'}, '172.18.0.51': {'ip': '172.18.0.51', 'name': 'ReceptionMFP', 'port': '631'}, '172.18.0.1': {'ip': '172.18.0.1', 'name': 'LabPrinter', 'port': '631'}}
+15:09:12 [INFO] Captured: Ether / IP / UDP 172.18.0.1:9999 > 172.18.0.2:631 / Raw
+15:09:12 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '99', 'uri': 'http://172.18.0.1:9999/printers/v1state', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+15:09:12 [WARNING] [MALFORMED] abnormal printer-state: 99; unexpected port number: 9999 from 172.18.0.1: http://172.18.0.1:9999/printers/v1state
+15:09:12 [INFO] Captured: Ether / IP / TCP 172.18.0.2:42110 > 172.18.0.1:9999 S
+15:09:12 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:42110 RA

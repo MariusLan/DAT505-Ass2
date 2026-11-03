@@ -1,0 +1,116 @@
+# CUPS / `cups-browsed` Discovery Attack & Detection (CVE-2024-47176)
+
+DAT505 Assignment 2 — Marius Langeland
+
+Scapy-based tools that demonstrate and detect insecure CUPS printer discovery
+(the CVE-2024-47176 class), plus a mitigation experiment. All work is performed
+in an isolated Docker lab — no public, university, or third-party system is
+involved, and the attack tool is scoped to **discovery**, not remote code
+execution.
+
+## Repository layout
+
+| Path | Description |
+|------|-------------|
+| `cups_attack.py` | Scapy attack tool — advertises an attacker-controlled printer and observes the victim's callback. |
+| `cups_detector.py` | Scapy detection tool — flags unauthorized adverts, suspicious IPP callbacks, malformed fields, and floods. |
+| `requirements.txt` | Python dependencies. |
+| `pcap_files/` | Captured network traffic (one capture per experiment). |
+| `evidence/` | Detector logs, screenshots, and the allowlist CSVs. |
+| `main.tex` | Written report (environment, tools, experiments, results, mitigation, ethics). |
+
+The vulnerable environment itself is **not** committed (see `.gitignore`); clone
+it separately (below).
+
+## Requirements
+
+- Python 3.10+
+- [Scapy](https://scapy.net/) — `pip install -r requirements.txt`
+- `root` / `sudo` (raw sockets for sniffing and sending)
+- `tcpdump` (packet capture), `docker` + `docker compose` (victim container)
+
+```bash
+sudo apt install -y tcpdump
+pip install -r requirements.txt
+```
+
+## Lab setup
+
+```bash
+# 1. Clone the vulnerable environment (kept out of this repo)
+git clone https://github.com/vulhub/vulhub
+cd vulhub/cups-browsed/CVE-2024-47177
+sudo docker compose up -d        # victim 'cups-browsed' container
+
+# 2. Start a software printer on the host (no physical printer needed)
+ippeveprinter -p 8632 "Test Printer"
+```
+
+Typical lab addresses: victim `172.18.0.2`, attacker/host `172.18.0.1`
+(the Docker bridge gateway), bridge interface `br-<id>`. Derive them with:
+
+```bash
+VICTIM=$(sudo docker ps -q | head -1)
+sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "$VICTIM"
+```
+
+## Usage
+
+### Detector
+
+```bash
+sudo python3 cups_detector.py --iface <iface> \
+    [--known-printers known_printers.csv] \
+    [--window 10] [--threshold 5] \
+    [--filter "udp port 631 or tcp"] [-v]
+```
+
+- `--known-printers` — CSV allowlist, format `ip,name,port`. Advertisers not in
+  the list are flagged `[UNAUTHORIZED AD]`.
+- `--window` / `--threshold` — flood detection (default: more than 5
+  announcements from one source within 10 s raises `[FLOOD]`).
+- Alerts: `[UNAUTHORIZED AD]`, `[SUSPICIOUS IPP]`, `[MALFORMED]`, `[FLOOD]`.
+
+### Attack
+
+```bash
+sudo python3 cups_attack.py --adv-ip <callback-ip> --target <victim-ip> \
+    [--queue <name>] [--adv-port <port>]
+```
+
+- `--adv-ip` — address advertised as the printer (where the victim connects back).
+- `--target` — the victim's `cups-browsed` host (UDP 631).
+
+## Experiments
+
+1. **Normal traffic** — a well-formed, allowlisted advert on port 631; no alerts.
+2. **Unauthorized discovery** — advert from an unknown source; `[UNAUTHORIZED AD]`
+   + `[SUSPICIOUS IPP]` on the callback.
+3. **Packet manipulation** — four crafted variants: abnormal `printer-state`,
+   invalid `type`, non-standard `port`, and a flood of 8 announcements.
+4. **Detection evaluation** — true positives, false positives (e.g. a legitimate
+   printer on a non-standard port), and missed attacks (allowlisted/spoofed
+   source, or the mDNS/DNS-SD path the filter does not watch).
+
+See `main.tex` for the full analysis, and `pcap_files/` + `evidence/` for the
+raw captures and logs.
+
+## Mitigation
+
+Restricting UDP 631 at the victim's firewall stops `cups-browsed` acting on the
+advert (the coerced callback no longer occurs):
+
+```bash
+PID=$(sudo docker inspect -f '{{.State.Pid}}' "$VICTIM")
+sudo nsenter -t "$PID" -n iptables -I INPUT -p udp --dport 631 -j DROP
+```
+
+Other layers: disable `cups-browsed` / `BrowseRemoteProtocols none`, allowlist
+authorized printers, patch to `cups-browsed` 2.1.0, and segment the network.
+
+## Ethics & safety
+
+All testing was confined to a self-controlled, isolated Docker lab. No external
+systems were targeted. The vulnerability and its mitigations are public
+(CVE-2024-47176); the purpose of this work is defensive understanding and
+detection.

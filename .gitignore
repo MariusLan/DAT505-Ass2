@@ -1,0 +1,24 @@
+# Vulnerable lab environment (cloned separately, not part of this submission)
+vulhub/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# LaTeX build artifacts (root-level only, so evidence/*.log is kept)
+*.aux
+/*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk

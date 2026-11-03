@@ -1,0 +1,171 @@
+08:43:58 [INFO] Listening on br-60480b7c1bbb (filter: udp port 631 or tcp)
+08:43:58 [INFO] Known printers: {'172.18.0.50': {'ip': '172.18.0.50', 'name': 'OfficeLaser', 'port': '631'}, '172.18.0.51': {'ip': '172.18.0.51', 'name': 'ReceptionMFP', 'port': '631'}, '172.18.0.1': {'ip': '172.18.0.1', 'name': 'LabPrinter', 'port': '631'}}
+08:45:47 [INFO] Captured: Ether / IP / UDP 172.18.0.1:9999 > 172.18.0.2:631 / Raw
+08:45:47 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:9999/printers/flood1', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+08:45:47 [WARNING] [MALFORMED] unexpected port number: 9999 from 172.18.0.1: http://172.18.0.1:9999/printers/flood1
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38582 > 172.18.0.1:9999 S
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38582 SA
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38582 > 172.18.0.1:9999 A
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38582 > 172.18.0.1:9999 PA / Raw
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38582 A
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38582 > 172.18.0.1:9999 PA / Raw
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38582 A
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38582 RA
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38584 > 172.18.0.1:9999 S
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38584 RA
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38586 > 172.18.0.1:9999 S
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38586 RA
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38590 > 172.18.0.1:9999 S
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38590 RA
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38598 > 172.18.0.1:9999 S
+08:45:47 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38598 RA
+08:45:48 [INFO] Captured: Ether / IP / UDP 172.18.0.1:9999 > 172.18.0.2:631 / Raw
+08:45:48 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:9999/printers/flood2', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+08:45:48 [WARNING] [MALFORMED] unexpected port number: 9999 from 172.18.0.1: http://172.18.0.1:9999/printers/flood2
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38604 > 172.18.0.1:9999 S
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38604 SA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38604 > 172.18.0.1:9999 A
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38604 > 172.18.0.1:9999 PA / Raw
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38604 A
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38604 > 172.18.0.1:9999 PA / Raw
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38604 A
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38604 FA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38604 > 172.18.0.1:9999 FA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38604 A
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38606 > 172.18.0.1:9999 S
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38606 RA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38612 > 172.18.0.1:9999 S
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38612 RA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38616 > 172.18.0.1:9999 S
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38616 RA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38620 > 172.18.0.1:9999 S
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38620 RA
+08:45:48 [INFO] Captured: Ether / IP / UDP 172.18.0.1:9999 > 172.18.0.2:631 / Raw
+08:45:48 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:9999/printers/flood3', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+08:45:48 [WARNING] [MALFORMED] unexpected port number: 9999 from 172.18.0.1: http://172.18.0.1:9999/printers/flood3
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38632 > 172.18.0.1:9999 S
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38632 SA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38632 > 172.18.0.1:9999 A
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38632 > 172.18.0.1:9999 PA / Raw
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38632 A
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38632 > 172.18.0.1:9999 PA / Raw
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38632 A
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38632 FA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38632 > 172.18.0.1:9999 FA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38632 A
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38634 > 172.18.0.1:9999 S
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38634 RA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38646 > 172.18.0.1:9999 S
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38646 RA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38652 > 172.18.0.1:9999 S
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38652 RA
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38664 > 172.18.0.1:9999 S
+08:45:48 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38664 RA
+08:45:49 [INFO] Captured: Ether / IP / UDP 172.18.0.1:9999 > 172.18.0.2:631 / Raw
+08:45:49 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:9999/printers/flood4', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+08:45:49 [WARNING] [MALFORMED] unexpected port number: 9999 from 172.18.0.1: http://172.18.0.1:9999/printers/flood4
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38678 > 172.18.0.1:9999 S
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38678 SA
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38678 > 172.18.0.1:9999 A
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38678 > 172.18.0.1:9999 PA / Raw
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38678 A
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38678 > 172.18.0.1:9999 PA / Raw
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38678 A
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38678 FA
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38678 > 172.18.0.1:9999 FA
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38678 A
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38684 > 172.18.0.1:9999 S
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38684 RA
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38686 > 172.18.0.1:9999 S
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38686 RA
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38692 > 172.18.0.1:9999 S
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38692 RA
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38708 > 172.18.0.1:9999 S
+08:45:49 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38708 RA
+08:45:50 [INFO] Captured: Ether / IP / UDP 172.18.0.1:9999 > 172.18.0.2:631 / Raw
+08:45:50 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:9999/printers/flood5', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+08:45:50 [WARNING] [MALFORMED] unexpected port number: 9999 from 172.18.0.1: http://172.18.0.1:9999/printers/flood5
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38720 > 172.18.0.1:9999 S
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38720 SA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38720 > 172.18.0.1:9999 A
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38720 > 172.18.0.1:9999 PA / Raw
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38720 A
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38720 > 172.18.0.1:9999 PA / Raw
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38720 A
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38720 FA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38720 > 172.18.0.1:9999 FA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38720 A
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38724 > 172.18.0.1:9999 S
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38724 RA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38728 > 172.18.0.1:9999 S
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38728 RA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38744 > 172.18.0.1:9999 S
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38744 RA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:38752 > 172.18.0.1:9999 S
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:38752 RA
+08:45:50 [INFO] Captured: Ether / IP / UDP 172.18.0.1:9999 > 172.18.0.2:631 / Raw
+08:45:50 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:9999/printers/flood6', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+08:45:50 [WARNING] [FLOOD] 172.18.0.1 sent 6 announcements in 10s
+08:45:50 [WARNING] [MALFORMED] unexpected port number: 9999 from 172.18.0.1: http://172.18.0.1:9999/printers/flood6
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39690 > 172.18.0.1:9999 S
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39690 SA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39690 > 172.18.0.1:9999 A
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39690 > 172.18.0.1:9999 PA / Raw
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39690 A
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39690 > 172.18.0.1:9999 PA / Raw
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39690 A
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39690 FA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39690 > 172.18.0.1:9999 FA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39690 A
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39706 > 172.18.0.1:9999 S
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39706 RA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39712 > 172.18.0.1:9999 S
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39712 RA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39718 > 172.18.0.1:9999 S
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39718 RA
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39732 > 172.18.0.1:9999 S
+08:45:50 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39732 RA
+08:45:51 [INFO] Captured: Ether / IP / UDP 172.18.0.1:9999 > 172.18.0.2:631 / Raw
+08:45:51 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:9999/printers/flood7', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+08:45:51 [WARNING] [FLOOD] 172.18.0.1 sent 7 announcements in 10s
+08:45:51 [WARNING] [MALFORMED] unexpected port number: 9999 from 172.18.0.1: http://172.18.0.1:9999/printers/flood7
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39736 > 172.18.0.1:9999 S
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39736 SA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39736 > 172.18.0.1:9999 A
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39736 > 172.18.0.1:9999 PA / Raw
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39736 A
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39736 > 172.18.0.1:9999 PA / Raw
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39736 A
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39736 FA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39736 > 172.18.0.1:9999 FA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39736 A
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39738 > 172.18.0.1:9999 S
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39738 RA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39740 > 172.18.0.1:9999 S
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39740 RA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39744 > 172.18.0.1:9999 S
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39744 RA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39760 > 172.18.0.1:9999 S
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39760 RA
+08:45:51 [INFO] Captured: Ether / IP / UDP 172.18.0.1:9999 > 172.18.0.2:631 / Raw
+08:45:51 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:9999/printers/flood8', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+08:45:51 [WARNING] [FLOOD] 172.18.0.1 sent 8 announcements in 10s
+08:45:51 [WARNING] [MALFORMED] unexpected port number: 9999 from 172.18.0.1: http://172.18.0.1:9999/printers/flood8
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39776 > 172.18.0.1:9999 S
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39776 SA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39776 > 172.18.0.1:9999 A
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39776 > 172.18.0.1:9999 PA / Raw
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39776 A
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39776 > 172.18.0.1:9999 PA / Raw
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39776 A
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39776 FA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39776 > 172.18.0.1:9999 FA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39776 A
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39780 > 172.18.0.1:9999 S
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39780 RA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39792 > 172.18.0.1:9999 S
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39792 RA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39806 > 172.18.0.1:9999 S
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39806 RA
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.2:39820 > 172.18.0.1:9999 S
+08:45:51 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:39820 RA

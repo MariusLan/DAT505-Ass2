@@ -1,0 +1,29 @@
+16:52:20 [INFO] Listening on br-60480b7c1bbb (filter: udp port 631 or tcp)
+16:52:20 [INFO] Known printers: {}
+16:52:25 [INFO] Captured: Ether / IP / UDP 172.18.0.1:8631 > 172.18.0.2:631 / Raw
+16:52:25 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:8631/printers/testprinter', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+16:52:25 [WARNING] [UNAUTHORIZED AD] 172.18.0.1 advertised 172.18.0.1:8631
+16:52:25 [WARNING] [MALFORMED] not known IP: 172.18.0.1; unexpected port number: 8631 from 172.18.0.1: http://172.18.0.1:8631/printers/testprinter
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.2:37952 > 172.18.0.1:8631 S
+16:52:25 [WARNING] [SUSPICIOUS IPP] connection to attacker-advertised printer 172.18.0.1:8631
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.1:8631 > 172.18.0.2:37952 SA
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.2:37952 > 172.18.0.1:8631 A
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.2:37952 > 172.18.0.1:8631 PA / Raw
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.1:8631 > 172.18.0.2:37952 A
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.2:37952 > 172.18.0.1:8631 PA / Raw
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.1:8631 > 172.18.0.2:37952 A
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.1:8631 > 172.18.0.2:37952 FA
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.2:37952 > 172.18.0.1:8631 FA
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.1:8631 > 172.18.0.2:37952 A
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.2:37954 > 172.18.0.1:8631 S
+16:52:25 [WARNING] [SUSPICIOUS IPP] connection to attacker-advertised printer 172.18.0.1:8631
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.1:8631 > 172.18.0.2:37954 RA
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.2:37962 > 172.18.0.1:8631 S
+16:52:25 [WARNING] [SUSPICIOUS IPP] connection to attacker-advertised printer 172.18.0.1:8631
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.1:8631 > 172.18.0.2:37962 RA
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.2:37966 > 172.18.0.1:8631 S
+16:52:25 [WARNING] [SUSPICIOUS IPP] connection to attacker-advertised printer 172.18.0.1:8631
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.1:8631 > 172.18.0.2:37966 RA
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.2:37974 > 172.18.0.1:8631 S
+16:52:25 [WARNING] [SUSPICIOUS IPP] connection to attacker-advertised printer 172.18.0.1:8631
+16:52:25 [INFO] Captured: Ether / IP / TCP 172.18.0.1:8631 > 172.18.0.2:37974 RA

@@ -1,0 +1,27 @@
+15:04:48 [INFO] Listening on br-60480b7c1bbb (filter: udp port 631 or tcp)
+15:04:48 [INFO] Known printers: {'172.18.0.50': {'ip': '172.18.0.50', 'name': 'OfficeLaser', 'port': '631'}, '172.18.0.51': {'ip': '172.18.0.51', 'name': 'ReceptionMFP', 'port': '631'}, '172.18.0.1': {'ip': '172.18.0.1', 'name': 'LabPrinter', 'port': '631'}}
+15:05:03 [INFO] Captured: Ether / IP / UDP 172.18.0.1:9999 > 172.18.0.2:631 / Raw
+15:05:03 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:9999/printers/evilprinter', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+15:05:03 [WARNING] [MALFORMED] unexpected port number: 9999 from 172.18.0.1: http://172.18.0.1:9999/printers/evilprinter
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60890 > 172.18.0.1:9999 S
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60890 SA
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60890 > 172.18.0.1:9999 A
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60890 > 172.18.0.1:9999 PA / Raw
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60890 A
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60890 > 172.18.0.1:9999 PA / Raw
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60890 A
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60890 FA
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60890 > 172.18.0.1:9999 FA
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60890 A
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60892 > 172.18.0.1:9999 S
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60892 SA
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60892 > 172.18.0.1:9999 A
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60892 > 172.18.0.1:9999 PA / Raw
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60892 A
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60892 > 172.18.0.1:9999 PA / Raw
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60892 A
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60892 RA
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60900 > 172.18.0.1:9999 S
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60900 RA
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:60908 > 172.18.0.1:9999 S
+15:05:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:9999 > 172.18.0.2:60908 RA

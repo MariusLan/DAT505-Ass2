@@ -1,0 +1,1689 @@
+Starting system message bus: dbus.
+Mon Nov  2 09:13:53 2026 127485326078912 Reading command line option --debug, turning on debug mode (Log on standard error).
+Mon Nov  2 09:13:53 2026 127485326078912 cups-browsed version 2.0.1 starting.
+Mon Nov  2 09:13:53 2026 127485326078912 Reading config: BrowseRemoteProtocols dnssd cups
+Mon Nov  2 09:13:53 2026 127485326078912 No "Browse..." line at all, accept all servers ("BrowseOrder Deny,Allow").
+Mon Nov  2 09:13:53 2026 127485326078912 main() in THREAD 127485326078912
+Mon Nov  2 09:13:53 2026 127485326078912 cups-browsed: Creating http connection to local CUPS daemon via domain socket: /run/cups/cups.sock
+Mon Nov  2 09:13:53 2026 127485326078912 update_netifs() in THREAD 127485326078912
+Mon Nov  2 09:13:53 2026 127485326078912 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 09:13:53 2026 127485326078912 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Create-Subscription
+Mon Nov  2 09:13:53 2026 127485326078912 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: subscription ID=1
+Mon Nov  2 09:13:53 2026 127485326078912 cups-browsed (): cupsEnumDests
+Mon Nov  2 09:13:53 2026 127485326078912 Could not determine system default printer!
+Mon Nov  2 09:13:53 2026 127485326078912 Using signal handler SIGACTION
+Mon Nov  2 09:13:53 2026 127485326078912 listening
+Mon Nov  2 09:13:56 2026 127485326078912 Caught signal 15, shutting down ...
+Mon Nov  2 09:13:56 2026 127485326078912 main loop exited
+Mon Nov  2 09:13:56 2026 127485326078912 update_cups_queues() in THREAD 127485358204384
+Mon Nov  2 09:13:56 2026 127485326078912 Processing printer list ...
+Mon Nov  2 09:13:56 2026 127485326078912 === Remote printer overview ===
+Mon Nov  2 09:13:56 2026 127485326078912 ===============================
+Mon Nov  2 09:13:56 2026 127485326078912 === Remote printer overview ===
+Mon Nov  2 09:13:56 2026 127485326078912 ===============================
+Mon Nov  2 09:13:56 2026 127485326078912 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Cancel-Subscription
+Removing stale PID file /var/run/dbus/pid..
+Starting system message bus: dbus.
+Mon Nov  2 09:13:59 2026 129371584496576 Reading command line option --debug, turning on debug mode (Log on standard error).
+Mon Nov  2 09:13:59 2026 129371584496576 cups-browsed version 2.0.1 starting.
+Mon Nov  2 09:13:59 2026 129371584496576 Reading config: BrowseRemoteProtocols dnssd cups
+Mon Nov  2 09:13:59 2026 129371584496576 No "Browse..." line at all, accept all servers ("BrowseOrder Deny,Allow").
+Mon Nov  2 09:13:59 2026 129371584496576 main() in THREAD 129371584496576
+Mon Nov  2 09:13:59 2026 129371584496576 cups-browsed: Creating http connection to local CUPS daemon via domain socket: /run/cups/cups.sock
+Mon Nov  2 09:13:59 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 09:13:59 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 09:13:59 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Create-Subscription
+Mon Nov  2 09:13:59 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: subscription ID=1
+Mon Nov  2 09:13:59 2026 129371584496576 cups-browsed (): cupsEnumDests
+Mon Nov  2 09:13:59 2026 129371584496576 Could not determine system default printer!
+Mon Nov  2 09:13:59 2026 129371584496576 Using signal handler SIGACTION
+Mon Nov  2 09:13:59 2026 129371584496576 listening
+Mon Nov  2 09:16:13 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 09:16:13 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 09:16:13 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 09:16:13 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 09:16:13 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: dettest; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 09:16:13 2026 129371584496576 Found CUPS queue/class: dettest on host 172.18.0.1.
+Mon Nov  2 09:16:13 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 09:16:13 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 09:16:13 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 09:16:13 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 09:16:13 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 09:16:13 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 09:16:13 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Success
+Mon Nov  2 09:16:13 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:16:13 2026   - No response
+Mon Nov  2 09:16:13 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 09:16:13 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:16:13 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:16:13 2026   - No response
+Mon Nov  2 09:16:13 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 09:16:13 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:16:13 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:16:13 2026   - No response
+Mon Nov  2 09:16:13 2026 No further fallback available, giving up
+Mon Nov  2 09:16:13 2026 
+Mon Nov  2 09:16:13 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/dettest).
+Mon Nov  2 09:16:13 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 09:16:13 2026 129371584496576 listening
+Mon Nov  2 09:16:34 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 09:16:34 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 09:16:34 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 09:16:34 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 09:16:34 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: dettest; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 09:16:34 2026 129371584496576 Found CUPS queue/class: dettest on host 172.18.0.1.
+Mon Nov  2 09:16:34 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 09:16:34 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 09:16:34 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 09:16:34 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 09:16:34 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 09:16:34 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 09:16:34 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Success
+Mon Nov  2 09:16:34 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:16:34 2026   - No response
+Mon Nov  2 09:16:34 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 09:16:34 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:16:34 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:16:34 2026   - No response
+Mon Nov  2 09:16:34 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 09:16:34 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:16:34 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:16:34 2026   - No response
+Mon Nov  2 09:16:34 2026 No further fallback available, giving up
+Mon Nov  2 09:16:34 2026 
+Mon Nov  2 09:16:34 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/dettest).
+Mon Nov  2 09:16:34 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 09:16:34 2026 129371584496576 listening
+Mon Nov  2 09:32:29 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 09:32:29 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 09:32:29 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 09:32:29 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 09:32:29 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: dettest; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 09:32:29 2026 129371584496576 Found CUPS queue/class: dettest on host 172.18.0.1.
+Mon Nov  2 09:32:29 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 09:32:29 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 09:32:29 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 09:32:29 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 09:32:29 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 09:32:29 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 09:32:29 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Success
+Mon Nov  2 09:32:29 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:32:29 2026   - No response
+Mon Nov  2 09:32:29 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 09:32:29 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:32:29 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:32:29 2026   - No response
+Mon Nov  2 09:32:29 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 09:32:29 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:32:29 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:32:29 2026   - No response
+Mon Nov  2 09:32:29 2026 No further fallback available, giving up
+Mon Nov  2 09:32:29 2026 
+Mon Nov  2 09:32:29 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/dettest).
+Mon Nov  2 09:32:29 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 09:32:29 2026 129371584496576 listening
+Mon Nov  2 09:33:02 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 09:33:02 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 09:33:02 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 09:33:02 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 09:33:02 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: dettest; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 09:33:02 2026 129371584496576 Found CUPS queue/class: dettest on host 172.18.0.1.
+Mon Nov  2 09:33:02 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 09:33:02 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 09:33:02 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 09:33:02 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 09:33:02 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 09:33:02 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 09:33:02 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Success
+Mon Nov  2 09:33:02 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:33:02 2026   - No response
+Mon Nov  2 09:33:02 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 09:33:02 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:33:02 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:33:02 2026   - No response
+Mon Nov  2 09:33:02 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 09:33:02 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:33:02 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:33:02 2026   - No response
+Mon Nov  2 09:33:02 2026 No further fallback available, giving up
+Mon Nov  2 09:33:02 2026 
+Mon Nov  2 09:33:02 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/dettest).
+Mon Nov  2 09:33:02 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 09:33:02 2026 129371584496576 listening
+Mon Nov  2 09:33:52 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 09:33:52 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 09:33:52 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 09:33:52 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 09:33:52 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: dettest; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 09:33:52 2026 129371584496576 Found CUPS queue/class: dettest on host 172.18.0.1.
+Mon Nov  2 09:33:52 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 09:33:52 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 09:33:52 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 09:33:52 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 09:33:52 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 09:33:52 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 09:33:52 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Success
+Mon Nov  2 09:33:52 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:33:52 2026   - No response
+Mon Nov  2 09:33:52 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 09:33:52 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:33:52 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:33:52 2026   - No response
+Mon Nov  2 09:33:52 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 09:33:52 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:33:52 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:33:52 2026   - No response
+Mon Nov  2 09:33:52 2026 No further fallback available, giving up
+Mon Nov  2 09:33:52 2026 
+Mon Nov  2 09:33:52 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/dettest).
+Mon Nov  2 09:33:52 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 09:33:52 2026 129371584496576 listening
+Mon Nov  2 09:57:18 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 09:57:18 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 09:57:18 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 09:57:18 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 09:57:18 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: dettest; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 09:57:18 2026 129371584496576 Found CUPS queue/class: dettest on host 172.18.0.1.
+Mon Nov  2 09:57:18 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 09:57:18 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 09:57:18 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 09:57:18 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 09:57:18 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 09:57:18 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 09:57:18 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Success
+Mon Nov  2 09:57:18 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:57:18 2026   - No response
+Mon Nov  2 09:57:18 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 09:57:18 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:57:18 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:57:18 2026   - No response
+Mon Nov  2 09:57:18 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 09:57:18 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:57:18 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:57:18 2026   - No response
+Mon Nov  2 09:57:18 2026 No further fallback available, giving up
+Mon Nov  2 09:57:18 2026 
+Mon Nov  2 09:57:18 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/dettest).
+Mon Nov  2 09:57:18 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 09:57:18 2026 129371584496576 listening
+Mon Nov  2 09:58:21 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 09:58:21 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 09:58:21 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 09:58:21 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 09:58:21 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: dettest; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 09:58:21 2026 129371584496576 Found CUPS queue/class: dettest on host 172.18.0.1.
+Mon Nov  2 09:58:21 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 09:58:21 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 09:58:21 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 09:58:21 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 09:58:21 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 09:58:21 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 09:58:21 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Success
+Mon Nov  2 09:58:21 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:58:21 2026   - No response
+Mon Nov  2 09:58:21 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 09:58:21 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:58:21 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:58:21 2026   - No response
+Mon Nov  2 09:58:21 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 09:58:21 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 09:58:21 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 09:58:21 2026   - No response
+Mon Nov  2 09:58:21 2026 No further fallback available, giving up
+Mon Nov  2 09:58:21 2026 
+Mon Nov  2 09:58:21 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/dettest).
+Mon Nov  2 09:58:21 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 09:58:21 2026 129371584496576 listening
+Mon Nov  2 11:33:26 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:33:26 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:33:26 2026 129371584496576 incorrect browse packet format
+Mon Nov  2 11:34:25 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:34:25 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:34:25 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:34:25 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:34:25 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: dettest; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:34:25 2026 129371584496576 Found CUPS queue/class: dettest on host 172.18.0.1.
+Mon Nov  2 11:34:25 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:34:25 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:34:25 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:34:25 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:34:25 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:34:25 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:34:25 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Success
+Mon Nov  2 11:34:25 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:34:25 2026   - No response
+Mon Nov  2 11:34:25 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:34:25 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 11:34:25 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:34:25 2026   - No response
+Mon Nov  2 11:34:25 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:34:25 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/dettest failed: Service Unavailable
+Mon Nov  2 11:34:25 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:34:25 2026   - No response
+Mon Nov  2 11:34:25 2026 No further fallback available, giving up
+Mon Nov  2 11:34:25 2026 
+Mon Nov  2 11:34:25 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/dettest).
+Mon Nov  2 11:34:25 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:34:25 2026 129371584496576 listening
+Mon Nov  2 11:34:52 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:34:52 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:34:52 2026 129371584496576 incorrect browse packet format
+Mon Nov  2 11:51:11 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:51:11 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:51:11 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:51:11 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:51:11 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood1; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:51:11 2026 129371584496576 Found CUPS queue/class: flood1 on host 172.18.0.1.
+Mon Nov  2 11:51:11 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:51:11 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:51:11 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:51:11 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:51:11 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:51:11 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:51:11 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Success
+Mon Nov  2 11:51:11 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:11 2026   - No response
+Mon Nov  2 11:51:11 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:51:11 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Service Unavailable
+Mon Nov  2 11:51:11 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:11 2026   - No response
+Mon Nov  2 11:51:11 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:51:11 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Service Unavailable
+Mon Nov  2 11:51:11 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:11 2026   - No response
+Mon Nov  2 11:51:11 2026 No further fallback available, giving up
+Mon Nov  2 11:51:11 2026 
+Mon Nov  2 11:51:11 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood1).
+Mon Nov  2 11:51:11 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:51:11 2026 129371584496576 listening
+Mon Nov  2 11:51:12 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:51:12 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:51:12 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:51:12 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:51:12 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood2; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:51:12 2026 129371584496576 Found CUPS queue/class: flood2 on host 172.18.0.1.
+Mon Nov  2 11:51:12 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:51:12 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:51:12 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:51:12 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:51:12 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:51:12 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:51:12 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Success
+Mon Nov  2 11:51:12 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:12 2026   - No response
+Mon Nov  2 11:51:12 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:51:12 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Service Unavailable
+Mon Nov  2 11:51:12 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:12 2026   - No response
+Mon Nov  2 11:51:12 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:51:12 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Service Unavailable
+Mon Nov  2 11:51:12 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:12 2026   - No response
+Mon Nov  2 11:51:12 2026 No further fallback available, giving up
+Mon Nov  2 11:51:12 2026 
+Mon Nov  2 11:51:12 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood2).
+Mon Nov  2 11:51:12 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:51:12 2026 129371584496576 listening
+Mon Nov  2 11:51:12 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:51:12 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:51:12 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:51:12 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:51:12 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood3; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:51:12 2026 129371584496576 Found CUPS queue/class: flood3 on host 172.18.0.1.
+Mon Nov  2 11:51:12 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:51:12 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:51:12 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:51:12 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:51:12 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:51:12 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:51:12 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Success
+Mon Nov  2 11:51:12 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:12 2026   - No response
+Mon Nov  2 11:51:12 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:51:12 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Service Unavailable
+Mon Nov  2 11:51:12 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:12 2026   - No response
+Mon Nov  2 11:51:12 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:51:12 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Service Unavailable
+Mon Nov  2 11:51:12 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:12 2026   - No response
+Mon Nov  2 11:51:12 2026 No further fallback available, giving up
+Mon Nov  2 11:51:12 2026 
+Mon Nov  2 11:51:12 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood3).
+Mon Nov  2 11:51:12 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:51:12 2026 129371584496576 listening
+Mon Nov  2 11:51:13 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:51:13 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:51:13 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:51:13 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:51:13 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood4; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:51:13 2026 129371584496576 Found CUPS queue/class: flood4 on host 172.18.0.1.
+Mon Nov  2 11:51:13 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:51:13 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:51:13 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:51:13 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:51:13 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:51:13 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:51:13 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Success
+Mon Nov  2 11:51:13 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:13 2026   - No response
+Mon Nov  2 11:51:13 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:51:13 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Service Unavailable
+Mon Nov  2 11:51:13 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:13 2026   - No response
+Mon Nov  2 11:51:13 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:51:13 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Service Unavailable
+Mon Nov  2 11:51:13 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:13 2026   - No response
+Mon Nov  2 11:51:13 2026 No further fallback available, giving up
+Mon Nov  2 11:51:13 2026 
+Mon Nov  2 11:51:13 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood4).
+Mon Nov  2 11:51:13 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:51:13 2026 129371584496576 listening
+Mon Nov  2 11:51:14 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:51:14 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:51:14 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:51:14 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:51:14 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood5; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:51:14 2026 129371584496576 Found CUPS queue/class: flood5 on host 172.18.0.1.
+Mon Nov  2 11:51:14 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:51:14 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:51:14 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:51:14 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:51:14 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:51:14 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:51:14 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Success
+Mon Nov  2 11:51:14 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:14 2026   - No response
+Mon Nov  2 11:51:14 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:51:14 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Service Unavailable
+Mon Nov  2 11:51:14 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:14 2026   - No response
+Mon Nov  2 11:51:14 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:51:14 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Service Unavailable
+Mon Nov  2 11:51:14 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:14 2026   - No response
+Mon Nov  2 11:51:14 2026 No further fallback available, giving up
+Mon Nov  2 11:51:14 2026 
+Mon Nov  2 11:51:14 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood5).
+Mon Nov  2 11:51:14 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:51:14 2026 129371584496576 listening
+Mon Nov  2 11:51:14 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:51:14 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:51:14 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:51:14 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:51:14 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood6; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:51:14 2026 129371584496576 Found CUPS queue/class: flood6 on host 172.18.0.1.
+Mon Nov  2 11:51:14 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:51:14 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:51:14 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:51:14 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:51:14 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:51:14 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:51:14 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Success
+Mon Nov  2 11:51:14 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:14 2026   - No response
+Mon Nov  2 11:51:14 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:51:14 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Service Unavailable
+Mon Nov  2 11:51:14 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:14 2026   - No response
+Mon Nov  2 11:51:14 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:51:14 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Service Unavailable
+Mon Nov  2 11:51:14 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:14 2026   - No response
+Mon Nov  2 11:51:14 2026 No further fallback available, giving up
+Mon Nov  2 11:51:14 2026 
+Mon Nov  2 11:51:14 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood6).
+Mon Nov  2 11:51:14 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:51:14 2026 129371584496576 listening
+Mon Nov  2 11:51:15 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:51:15 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:51:15 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:51:15 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:51:15 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood7; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:51:15 2026 129371584496576 Found CUPS queue/class: flood7 on host 172.18.0.1.
+Mon Nov  2 11:51:15 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:51:15 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:51:15 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:51:15 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:51:15 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:51:15 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:51:15 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Success
+Mon Nov  2 11:51:15 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:15 2026   - No response
+Mon Nov  2 11:51:15 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:51:15 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Service Unavailable
+Mon Nov  2 11:51:15 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:15 2026   - No response
+Mon Nov  2 11:51:15 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:51:15 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Service Unavailable
+Mon Nov  2 11:51:15 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:15 2026   - No response
+Mon Nov  2 11:51:15 2026 No further fallback available, giving up
+Mon Nov  2 11:51:15 2026 
+Mon Nov  2 11:51:15 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood7).
+Mon Nov  2 11:51:15 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:51:15 2026 129371584496576 listening
+Mon Nov  2 11:51:15 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:51:15 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:51:15 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:51:15 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:51:15 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood8; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:51:15 2026 129371584496576 Found CUPS queue/class: flood8 on host 172.18.0.1.
+Mon Nov  2 11:51:15 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:51:15 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:51:15 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:51:15 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:51:15 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:51:15 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:51:15 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Success
+Mon Nov  2 11:51:15 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:15 2026   - No response
+Mon Nov  2 11:51:15 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:51:15 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Service Unavailable
+Mon Nov  2 11:51:15 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:15 2026   - No response
+Mon Nov  2 11:51:15 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:51:15 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Service Unavailable
+Mon Nov  2 11:51:15 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:51:15 2026   - No response
+Mon Nov  2 11:51:15 2026 No further fallback available, giving up
+Mon Nov  2 11:51:15 2026 
+Mon Nov  2 11:51:15 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood8).
+Mon Nov  2 11:51:15 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:51:15 2026 129371584496576 listening
+Mon Nov  2 11:53:21 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:53:21 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:53:21 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:53:21 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:53:21 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood1; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:53:21 2026 129371584496576 Found CUPS queue/class: flood1 on host 172.18.0.1.
+Mon Nov  2 11:53:21 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:53:21 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:53:21 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:53:21 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:53:21 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:53:21 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:53:21 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Success
+Mon Nov  2 11:53:21 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:21 2026   - No response
+Mon Nov  2 11:53:21 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:53:21 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Service Unavailable
+Mon Nov  2 11:53:21 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:21 2026   - No response
+Mon Nov  2 11:53:21 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:53:21 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Service Unavailable
+Mon Nov  2 11:53:21 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:21 2026   - No response
+Mon Nov  2 11:53:21 2026 No further fallback available, giving up
+Mon Nov  2 11:53:21 2026 
+Mon Nov  2 11:53:21 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood1).
+Mon Nov  2 11:53:21 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:53:21 2026 129371584496576 listening
+Mon Nov  2 11:53:21 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:53:21 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:53:21 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:53:21 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:53:21 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood2; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:53:21 2026 129371584496576 Found CUPS queue/class: flood2 on host 172.18.0.1.
+Mon Nov  2 11:53:21 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:53:21 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:53:21 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:53:21 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:53:21 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:53:21 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:53:21 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Success
+Mon Nov  2 11:53:21 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:21 2026   - No response
+Mon Nov  2 11:53:21 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:53:21 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Service Unavailable
+Mon Nov  2 11:53:21 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:21 2026   - No response
+Mon Nov  2 11:53:21 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:53:21 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Service Unavailable
+Mon Nov  2 11:53:21 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:21 2026   - No response
+Mon Nov  2 11:53:21 2026 No further fallback available, giving up
+Mon Nov  2 11:53:21 2026 
+Mon Nov  2 11:53:21 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood2).
+Mon Nov  2 11:53:21 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:53:21 2026 129371584496576 listening
+Mon Nov  2 11:53:22 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:53:22 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:53:22 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:53:22 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:53:22 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood3; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:53:22 2026 129371584496576 Found CUPS queue/class: flood3 on host 172.18.0.1.
+Mon Nov  2 11:53:22 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:53:22 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:53:22 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:53:22 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:53:22 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:53:22 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:53:22 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Success
+Mon Nov  2 11:53:22 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:22 2026   - No response
+Mon Nov  2 11:53:22 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:53:22 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Service Unavailable
+Mon Nov  2 11:53:22 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:22 2026   - No response
+Mon Nov  2 11:53:22 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:53:22 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Service Unavailable
+Mon Nov  2 11:53:22 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:22 2026   - No response
+Mon Nov  2 11:53:22 2026 No further fallback available, giving up
+Mon Nov  2 11:53:22 2026 
+Mon Nov  2 11:53:22 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood3).
+Mon Nov  2 11:53:22 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:53:22 2026 129371584496576 listening
+Mon Nov  2 11:53:22 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:53:22 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:53:22 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:53:22 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:53:22 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood4; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:53:22 2026 129371584496576 Found CUPS queue/class: flood4 on host 172.18.0.1.
+Mon Nov  2 11:53:22 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:53:22 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:53:22 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:53:22 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:53:22 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:53:22 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:53:22 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Success
+Mon Nov  2 11:53:22 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:22 2026   - No response
+Mon Nov  2 11:53:22 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:53:22 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Service Unavailable
+Mon Nov  2 11:53:22 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:22 2026   - No response
+Mon Nov  2 11:53:22 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:53:22 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Service Unavailable
+Mon Nov  2 11:53:22 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:22 2026   - No response
+Mon Nov  2 11:53:22 2026 No further fallback available, giving up
+Mon Nov  2 11:53:22 2026 
+Mon Nov  2 11:53:22 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood4).
+Mon Nov  2 11:53:22 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:53:22 2026 129371584496576 listening
+Mon Nov  2 11:53:23 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:53:23 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:53:23 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:53:23 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:53:23 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood5; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:53:23 2026 129371584496576 Found CUPS queue/class: flood5 on host 172.18.0.1.
+Mon Nov  2 11:53:23 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:53:23 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:53:23 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:53:23 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:53:23 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:53:23 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:53:23 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Success
+Mon Nov  2 11:53:23 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:23 2026   - No response
+Mon Nov  2 11:53:23 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:53:23 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Service Unavailable
+Mon Nov  2 11:53:23 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:23 2026   - No response
+Mon Nov  2 11:53:23 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:53:23 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Service Unavailable
+Mon Nov  2 11:53:23 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:23 2026   - No response
+Mon Nov  2 11:53:23 2026 No further fallback available, giving up
+Mon Nov  2 11:53:23 2026 
+Mon Nov  2 11:53:23 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood5).
+Mon Nov  2 11:53:23 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:53:23 2026 129371584496576 listening
+Mon Nov  2 11:53:24 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:53:24 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:53:24 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:53:24 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:53:24 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood6; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:53:24 2026 129371584496576 Found CUPS queue/class: flood6 on host 172.18.0.1.
+Mon Nov  2 11:53:24 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:53:24 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:53:24 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:53:24 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:53:24 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:53:24 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:53:24 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Success
+Mon Nov  2 11:53:24 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:24 2026   - No response
+Mon Nov  2 11:53:24 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:53:24 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Service Unavailable
+Mon Nov  2 11:53:24 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:24 2026   - No response
+Mon Nov  2 11:53:24 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:53:24 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Service Unavailable
+Mon Nov  2 11:53:24 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:24 2026   - No response
+Mon Nov  2 11:53:24 2026 No further fallback available, giving up
+Mon Nov  2 11:53:24 2026 
+Mon Nov  2 11:53:24 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood6).
+Mon Nov  2 11:53:24 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:53:24 2026 129371584496576 listening
+Mon Nov  2 11:53:24 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:53:24 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:53:24 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:53:24 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:53:24 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood7; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:53:24 2026 129371584496576 Found CUPS queue/class: flood7 on host 172.18.0.1.
+Mon Nov  2 11:53:24 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:53:24 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:53:24 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:53:24 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:53:24 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:53:24 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:53:24 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Success
+Mon Nov  2 11:53:24 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:24 2026   - No response
+Mon Nov  2 11:53:24 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:53:24 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Service Unavailable
+Mon Nov  2 11:53:24 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:24 2026   - No response
+Mon Nov  2 11:53:24 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:53:24 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Service Unavailable
+Mon Nov  2 11:53:24 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:24 2026   - No response
+Mon Nov  2 11:53:24 2026 No further fallback available, giving up
+Mon Nov  2 11:53:24 2026 
+Mon Nov  2 11:53:24 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood7).
+Mon Nov  2 11:53:24 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:53:24 2026 129371584496576 listening
+Mon Nov  2 11:53:25 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 11:53:25 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 11:53:25 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 11:53:25 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 11:53:25 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood8; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 11:53:25 2026 129371584496576 Found CUPS queue/class: flood8 on host 172.18.0.1.
+Mon Nov  2 11:53:25 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 11:53:25 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 11:53:25 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 11:53:25 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 11:53:25 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 11:53:25 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 11:53:25 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Success
+Mon Nov  2 11:53:25 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:25 2026   - No response
+Mon Nov  2 11:53:25 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 11:53:25 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Service Unavailable
+Mon Nov  2 11:53:25 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:25 2026   - No response
+Mon Nov  2 11:53:25 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 11:53:25 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Service Unavailable
+Mon Nov  2 11:53:25 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 11:53:25 2026   - No response
+Mon Nov  2 11:53:25 2026 No further fallback available, giving up
+Mon Nov  2 11:53:25 2026 
+Mon Nov  2 11:53:25 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood8).
+Mon Nov  2 11:53:25 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 11:53:25 2026 129371584496576 listening
+Mon Nov  2 13:12:44 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:12:44 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:12:44 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:12:44 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:12:44 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood1; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:12:44 2026 129371584496576 Found CUPS queue/class: flood1 on host 172.18.0.1.
+Mon Nov  2 13:12:44 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:12:44 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:12:44 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:12:44 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:12:44 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:12:44 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:12:44 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Success
+Mon Nov  2 13:12:44 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:44 2026   - No response
+Mon Nov  2 13:12:44 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:12:44 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Service Unavailable
+Mon Nov  2 13:12:44 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:44 2026   - No response
+Mon Nov  2 13:12:44 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:12:44 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Service Unavailable
+Mon Nov  2 13:12:44 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:44 2026   - No response
+Mon Nov  2 13:12:44 2026 No further fallback available, giving up
+Mon Nov  2 13:12:44 2026 
+Mon Nov  2 13:12:44 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood1).
+Mon Nov  2 13:12:44 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:12:44 2026 129371584496576 listening
+Mon Nov  2 13:12:45 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:12:45 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:12:45 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:12:45 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:12:45 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood2; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:12:45 2026 129371584496576 Found CUPS queue/class: flood2 on host 172.18.0.1.
+Mon Nov  2 13:12:45 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:12:45 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:12:45 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:12:45 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:12:45 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:12:45 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:12:45 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Success
+Mon Nov  2 13:12:45 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:45 2026   - No response
+Mon Nov  2 13:12:45 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:12:45 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Service Unavailable
+Mon Nov  2 13:12:45 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:45 2026   - No response
+Mon Nov  2 13:12:45 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:12:45 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Service Unavailable
+Mon Nov  2 13:12:45 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:45 2026   - No response
+Mon Nov  2 13:12:45 2026 No further fallback available, giving up
+Mon Nov  2 13:12:45 2026 
+Mon Nov  2 13:12:45 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood2).
+Mon Nov  2 13:12:45 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:12:45 2026 129371584496576 listening
+Mon Nov  2 13:12:45 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:12:45 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:12:45 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:12:45 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:12:45 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood3; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:12:45 2026 129371584496576 Found CUPS queue/class: flood3 on host 172.18.0.1.
+Mon Nov  2 13:12:45 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:12:45 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:12:45 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:12:45 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:12:45 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:12:45 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:12:45 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Success
+Mon Nov  2 13:12:45 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:45 2026   - No response
+Mon Nov  2 13:12:45 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:12:45 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Service Unavailable
+Mon Nov  2 13:12:45 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:45 2026   - No response
+Mon Nov  2 13:12:45 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:12:45 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Service Unavailable
+Mon Nov  2 13:12:45 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:45 2026   - No response
+Mon Nov  2 13:12:45 2026 No further fallback available, giving up
+Mon Nov  2 13:12:45 2026 
+Mon Nov  2 13:12:45 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood3).
+Mon Nov  2 13:12:45 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:12:45 2026 129371584496576 listening
+Mon Nov  2 13:12:46 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:12:46 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:12:46 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:12:46 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:12:46 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood4; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:12:46 2026 129371584496576 Found CUPS queue/class: flood4 on host 172.18.0.1.
+Mon Nov  2 13:12:46 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:12:46 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:12:46 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:12:46 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:12:46 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:12:46 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:12:46 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Success
+Mon Nov  2 13:12:46 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:46 2026   - No response
+Mon Nov  2 13:12:46 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:12:46 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Service Unavailable
+Mon Nov  2 13:12:46 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:46 2026   - No response
+Mon Nov  2 13:12:46 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:12:46 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Service Unavailable
+Mon Nov  2 13:12:46 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:46 2026   - No response
+Mon Nov  2 13:12:46 2026 No further fallback available, giving up
+Mon Nov  2 13:12:46 2026 
+Mon Nov  2 13:12:46 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood4).
+Mon Nov  2 13:12:46 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:12:46 2026 129371584496576 listening
+Mon Nov  2 13:12:46 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:12:46 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:12:46 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:12:46 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:12:46 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood5; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:12:46 2026 129371584496576 Found CUPS queue/class: flood5 on host 172.18.0.1.
+Mon Nov  2 13:12:46 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:12:46 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:12:46 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:12:46 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:12:46 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:12:46 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:12:46 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Success
+Mon Nov  2 13:12:46 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:46 2026   - No response
+Mon Nov  2 13:12:46 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:12:46 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Service Unavailable
+Mon Nov  2 13:12:46 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:46 2026   - No response
+Mon Nov  2 13:12:46 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:12:46 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Service Unavailable
+Mon Nov  2 13:12:46 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:46 2026   - No response
+Mon Nov  2 13:12:46 2026 No further fallback available, giving up
+Mon Nov  2 13:12:46 2026 
+Mon Nov  2 13:12:46 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood5).
+Mon Nov  2 13:12:46 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:12:46 2026 129371584496576 listening
+Mon Nov  2 13:12:47 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:12:47 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:12:47 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:12:47 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:12:47 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood6; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:12:47 2026 129371584496576 Found CUPS queue/class: flood6 on host 172.18.0.1.
+Mon Nov  2 13:12:47 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:12:47 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:12:47 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:12:47 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:12:47 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:12:47 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:12:47 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Success
+Mon Nov  2 13:12:47 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:47 2026   - No response
+Mon Nov  2 13:12:47 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:12:47 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Service Unavailable
+Mon Nov  2 13:12:47 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:47 2026   - No response
+Mon Nov  2 13:12:47 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:12:47 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Service Unavailable
+Mon Nov  2 13:12:47 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:47 2026   - No response
+Mon Nov  2 13:12:47 2026 No further fallback available, giving up
+Mon Nov  2 13:12:47 2026 
+Mon Nov  2 13:12:47 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood6).
+Mon Nov  2 13:12:47 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:12:47 2026 129371584496576 listening
+Mon Nov  2 13:12:47 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:12:47 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:12:47 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:12:47 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:12:47 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood7; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:12:47 2026 129371584496576 Found CUPS queue/class: flood7 on host 172.18.0.1.
+Mon Nov  2 13:12:47 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:12:47 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:12:47 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:12:47 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:12:47 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:12:47 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:12:47 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Success
+Mon Nov  2 13:12:47 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:47 2026   - No response
+Mon Nov  2 13:12:47 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:12:47 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Service Unavailable
+Mon Nov  2 13:12:47 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:47 2026   - No response
+Mon Nov  2 13:12:47 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:12:47 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Service Unavailable
+Mon Nov  2 13:12:47 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:47 2026   - No response
+Mon Nov  2 13:12:47 2026 No further fallback available, giving up
+Mon Nov  2 13:12:47 2026 
+Mon Nov  2 13:12:47 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood7).
+Mon Nov  2 13:12:47 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:12:47 2026 129371584496576 listening
+Mon Nov  2 13:12:48 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:12:48 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:12:48 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:12:48 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:12:48 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood8; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:12:48 2026 129371584496576 Found CUPS queue/class: flood8 on host 172.18.0.1.
+Mon Nov  2 13:12:48 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:12:48 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:12:48 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:12:48 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:12:48 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:12:48 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:12:48 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Success
+Mon Nov  2 13:12:48 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:48 2026   - No response
+Mon Nov  2 13:12:48 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:12:48 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Service Unavailable
+Mon Nov  2 13:12:48 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:48 2026   - No response
+Mon Nov  2 13:12:48 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:12:48 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Service Unavailable
+Mon Nov  2 13:12:48 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:12:48 2026   - No response
+Mon Nov  2 13:12:48 2026 No further fallback available, giving up
+Mon Nov  2 13:12:48 2026 
+Mon Nov  2 13:12:48 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood8).
+Mon Nov  2 13:12:48 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:12:48 2026 129371584496576 listening
+Mon Nov  2 13:14:02 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:14:02 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:14:02 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:14:02 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:14:02 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood1; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:14:02 2026 129371584496576 Found CUPS queue/class: flood1 on host 172.18.0.1.
+Mon Nov  2 13:14:02 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:14:02 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:14:02 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:14:02 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:14:02 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:14:02 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:14:02 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Success
+Mon Nov  2 13:14:02 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:02 2026   - No response
+Mon Nov  2 13:14:02 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:14:02 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Service Unavailable
+Mon Nov  2 13:14:02 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:02 2026   - No response
+Mon Nov  2 13:14:02 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:14:02 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood1 failed: Service Unavailable
+Mon Nov  2 13:14:02 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:02 2026   - No response
+Mon Nov  2 13:14:02 2026 No further fallback available, giving up
+Mon Nov  2 13:14:02 2026 
+Mon Nov  2 13:14:02 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood1).
+Mon Nov  2 13:14:02 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:14:02 2026 129371584496576 listening
+Mon Nov  2 13:14:03 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:14:03 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:14:03 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:14:03 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:14:03 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood2; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:14:03 2026 129371584496576 Found CUPS queue/class: flood2 on host 172.18.0.1.
+Mon Nov  2 13:14:03 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:14:03 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:14:03 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:14:03 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:14:03 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:14:03 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:14:03 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Success
+Mon Nov  2 13:14:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:03 2026   - No response
+Mon Nov  2 13:14:03 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:14:03 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Service Unavailable
+Mon Nov  2 13:14:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:03 2026   - No response
+Mon Nov  2 13:14:03 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:14:03 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood2 failed: Service Unavailable
+Mon Nov  2 13:14:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:03 2026   - No response
+Mon Nov  2 13:14:03 2026 No further fallback available, giving up
+Mon Nov  2 13:14:03 2026 
+Mon Nov  2 13:14:03 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood2).
+Mon Nov  2 13:14:03 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:14:03 2026 129371584496576 listening
+Mon Nov  2 13:14:03 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:14:03 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:14:03 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:14:03 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:14:03 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood3; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:14:03 2026 129371584496576 Found CUPS queue/class: flood3 on host 172.18.0.1.
+Mon Nov  2 13:14:03 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:14:03 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:14:03 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:14:03 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:14:03 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:14:03 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:14:03 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Success
+Mon Nov  2 13:14:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:03 2026   - No response
+Mon Nov  2 13:14:03 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:14:03 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Service Unavailable
+Mon Nov  2 13:14:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:03 2026   - No response
+Mon Nov  2 13:14:03 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:14:03 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood3 failed: Service Unavailable
+Mon Nov  2 13:14:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:03 2026   - No response
+Mon Nov  2 13:14:03 2026 No further fallback available, giving up
+Mon Nov  2 13:14:03 2026 
+Mon Nov  2 13:14:03 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood3).
+Mon Nov  2 13:14:03 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:14:03 2026 129371584496576 listening
+Mon Nov  2 13:14:04 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:14:04 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:14:04 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:14:04 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:14:04 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood4; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:14:04 2026 129371584496576 Found CUPS queue/class: flood4 on host 172.18.0.1.
+Mon Nov  2 13:14:04 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:14:04 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:14:04 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:14:04 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:14:04 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:14:04 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:14:04 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Success
+Mon Nov  2 13:14:04 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:04 2026   - No response
+Mon Nov  2 13:14:04 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:14:04 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Service Unavailable
+Mon Nov  2 13:14:04 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:04 2026   - No response
+Mon Nov  2 13:14:04 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:14:04 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood4 failed: Service Unavailable
+Mon Nov  2 13:14:04 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:04 2026   - No response
+Mon Nov  2 13:14:04 2026 No further fallback available, giving up
+Mon Nov  2 13:14:04 2026 
+Mon Nov  2 13:14:04 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood4).
+Mon Nov  2 13:14:04 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:14:04 2026 129371584496576 listening
+Mon Nov  2 13:14:04 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:14:04 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:14:04 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:14:04 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:14:04 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood5; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:14:04 2026 129371584496576 Found CUPS queue/class: flood5 on host 172.18.0.1.
+Mon Nov  2 13:14:04 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:14:04 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:14:04 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:14:04 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:14:04 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:14:04 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:14:04 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Success
+Mon Nov  2 13:14:04 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:04 2026   - No response
+Mon Nov  2 13:14:04 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:14:04 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Service Unavailable
+Mon Nov  2 13:14:04 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:04 2026   - No response
+Mon Nov  2 13:14:04 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:14:04 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood5 failed: Service Unavailable
+Mon Nov  2 13:14:04 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:04 2026   - No response
+Mon Nov  2 13:14:04 2026 No further fallback available, giving up
+Mon Nov  2 13:14:04 2026 
+Mon Nov  2 13:14:04 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood5).
+Mon Nov  2 13:14:04 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:14:04 2026 129371584496576 listening
+Mon Nov  2 13:14:05 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:14:05 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:14:05 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:14:05 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:14:05 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood6; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:14:05 2026 129371584496576 Found CUPS queue/class: flood6 on host 172.18.0.1.
+Mon Nov  2 13:14:05 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:14:05 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:14:05 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:14:05 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:14:05 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:14:05 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:14:05 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Success
+Mon Nov  2 13:14:05 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:05 2026   - No response
+Mon Nov  2 13:14:05 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:14:05 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Service Unavailable
+Mon Nov  2 13:14:05 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:05 2026   - No response
+Mon Nov  2 13:14:05 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:14:05 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood6 failed: Service Unavailable
+Mon Nov  2 13:14:05 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:05 2026   - No response
+Mon Nov  2 13:14:05 2026 No further fallback available, giving up
+Mon Nov  2 13:14:05 2026 
+Mon Nov  2 13:14:05 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood6).
+Mon Nov  2 13:14:05 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:14:05 2026 129371584496576 listening
+Mon Nov  2 13:14:05 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:14:05 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:14:05 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:14:05 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:14:05 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood7; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:14:05 2026 129371584496576 Found CUPS queue/class: flood7 on host 172.18.0.1.
+Mon Nov  2 13:14:05 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:14:05 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:14:05 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:14:05 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:14:05 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:14:05 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:14:05 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Success
+Mon Nov  2 13:14:05 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:05 2026   - No response
+Mon Nov  2 13:14:05 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:14:05 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Service Unavailable
+Mon Nov  2 13:14:05 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:05 2026   - No response
+Mon Nov  2 13:14:05 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:14:05 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood7 failed: Service Unavailable
+Mon Nov  2 13:14:05 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:05 2026   - No response
+Mon Nov  2 13:14:05 2026 No further fallback available, giving up
+Mon Nov  2 13:14:05 2026 
+Mon Nov  2 13:14:05 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood7).
+Mon Nov  2 13:14:05 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:14:05 2026 129371584496576 listening
+Mon Nov  2 13:14:06 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:14:06 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:14:06 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:14:06 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:14:06 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood8; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:14:06 2026 129371584496576 Found CUPS queue/class: flood8 on host 172.18.0.1.
+Mon Nov  2 13:14:06 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:14:06 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:14:06 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:14:06 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:14:06 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:14:06 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:14:06 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Success
+Mon Nov  2 13:14:06 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:06 2026   - No response
+Mon Nov  2 13:14:06 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:14:06 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Service Unavailable
+Mon Nov  2 13:14:06 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:06 2026   - No response
+Mon Nov  2 13:14:06 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:14:06 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/flood8 failed: Service Unavailable
+Mon Nov  2 13:14:06 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:14:06 2026   - No response
+Mon Nov  2 13:14:06 2026 No further fallback available, giving up
+Mon Nov  2 13:14:06 2026 
+Mon Nov  2 13:14:06 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood8).
+Mon Nov  2 13:14:06 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:14:06 2026 129371584496576 listening
+Mon Nov  2 13:45:13 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:45:13 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:45:13 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:45:13 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:45:13 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 631; Remote queue name: LabPrinter; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:45:13 2026 129371584496576 Found CUPS queue/class: LabPrinter on host 172.18.0.1.
+Mon Nov  2 13:45:13 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:45:13 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:45:13 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 631, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:45:13 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:45:13 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:45:13 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:45:13 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:45:13 2026 Full list of all IPP attributes:
+Mon Nov  2 13:45:13 2026   Attr: attributes-charset
+Mon Nov  2 13:45:13 2026   Value: utf-8
+Mon Nov  2 13:45:13 2026   Keyword: utf-8
+Mon Nov  2 13:45:13 2026   Attr: attributes-natural-language
+Mon Nov  2 13:45:13 2026   Value: en-us
+Mon Nov  2 13:45:13 2026   Keyword: en-us
+Mon Nov  2 13:45:13 2026   Attr: status-message
+Mon Nov  2 13:45:13 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:45:13 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:45:13 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:45:13 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:45:13 2026   - Too few IPP attributes: 3 (30 or more expected)
+Mon Nov  2 13:45:13 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:45:13 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:45:13 2026 Full list of all IPP attributes:
+Mon Nov  2 13:45:13 2026   Attr: attributes-charset
+Mon Nov  2 13:45:13 2026   Value: utf-8
+Mon Nov  2 13:45:13 2026   Keyword: utf-8
+Mon Nov  2 13:45:13 2026   Attr: attributes-natural-language
+Mon Nov  2 13:45:13 2026   Value: en-us
+Mon Nov  2 13:45:13 2026   Keyword: en-us
+Mon Nov  2 13:45:13 2026   Attr: status-message
+Mon Nov  2 13:45:13 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:45:13 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:45:13 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:45:13 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:45:13 2026   - Too few IPP attributes: 6 (30 or more expected)
+Mon Nov  2 13:45:13 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:45:13 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:45:13 2026 Full list of all IPP attributes:
+Mon Nov  2 13:45:13 2026   Attr: attributes-charset
+Mon Nov  2 13:45:13 2026   Value: utf-8
+Mon Nov  2 13:45:13 2026   Keyword: utf-8
+Mon Nov  2 13:45:13 2026   Attr: attributes-natural-language
+Mon Nov  2 13:45:13 2026   Value: en-us
+Mon Nov  2 13:45:13 2026   Keyword: en-us
+Mon Nov  2 13:45:13 2026   Attr: status-message
+Mon Nov  2 13:45:13 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:45:13 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:45:13 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:45:13 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:45:13 2026   - Too few IPP attributes: 9 (30 or more expected)
+Mon Nov  2 13:45:13 2026 No further fallback available, giving up
+Mon Nov  2 13:45:13 2026 
+Mon Nov  2 13:45:13 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:631/printers/LabPrinter).
+Mon Nov  2 13:45:13 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:45:13 2026 129371584496576 listening
+Mon Nov  2 13:49:09 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:49:09 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:49:09 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:49:09 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:49:09 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 631; Remote queue name: LabPrinter; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:49:09 2026 129371584496576 Found CUPS queue/class: LabPrinter on host 172.18.0.1.
+Mon Nov  2 13:49:09 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:49:09 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:49:09 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 631, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:49:09 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:49:09 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:49:09 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:49:09 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:49:09 2026 Full list of all IPP attributes:
+Mon Nov  2 13:49:09 2026   Attr: attributes-charset
+Mon Nov  2 13:49:09 2026   Value: utf-8
+Mon Nov  2 13:49:09 2026   Keyword: utf-8
+Mon Nov  2 13:49:09 2026   Attr: attributes-natural-language
+Mon Nov  2 13:49:09 2026   Value: en-us
+Mon Nov  2 13:49:09 2026   Keyword: en-us
+Mon Nov  2 13:49:09 2026   Attr: status-message
+Mon Nov  2 13:49:09 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:49:09 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:49:09 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:49:09 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:49:09 2026   - Too few IPP attributes: 3 (30 or more expected)
+Mon Nov  2 13:49:09 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:49:09 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:49:09 2026 Full list of all IPP attributes:
+Mon Nov  2 13:49:09 2026   Attr: attributes-charset
+Mon Nov  2 13:49:09 2026   Value: utf-8
+Mon Nov  2 13:49:09 2026   Keyword: utf-8
+Mon Nov  2 13:49:09 2026   Attr: attributes-natural-language
+Mon Nov  2 13:49:09 2026   Value: en-us
+Mon Nov  2 13:49:09 2026   Keyword: en-us
+Mon Nov  2 13:49:09 2026   Attr: status-message
+Mon Nov  2 13:49:09 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:49:09 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:49:09 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:49:09 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:49:09 2026   - Too few IPP attributes: 6 (30 or more expected)
+Mon Nov  2 13:49:09 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:49:09 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:49:09 2026 Full list of all IPP attributes:
+Mon Nov  2 13:49:09 2026   Attr: attributes-charset
+Mon Nov  2 13:49:09 2026   Value: utf-8
+Mon Nov  2 13:49:09 2026   Keyword: utf-8
+Mon Nov  2 13:49:09 2026   Attr: attributes-natural-language
+Mon Nov  2 13:49:09 2026   Value: en-us
+Mon Nov  2 13:49:09 2026   Keyword: en-us
+Mon Nov  2 13:49:09 2026   Attr: status-message
+Mon Nov  2 13:49:09 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:49:09 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:49:09 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:49:09 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:49:09 2026   - Too few IPP attributes: 9 (30 or more expected)
+Mon Nov  2 13:49:09 2026 No further fallback available, giving up
+Mon Nov  2 13:49:09 2026 
+Mon Nov  2 13:49:09 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:631/printers/LabPrinter).
+Mon Nov  2 13:49:09 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:49:09 2026 129371584496576 listening
+Mon Nov  2 13:52:22 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:52:22 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:52:22 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:52:22 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:52:22 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 631; Remote queue name: LabPrinter; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:52:22 2026 129371584496576 Found CUPS queue/class: LabPrinter on host 172.18.0.1.
+Mon Nov  2 13:52:22 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:52:22 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:52:22 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 631, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:52:22 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:52:22 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:52:22 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:52:22 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:52:22 2026 Full list of all IPP attributes:
+Mon Nov  2 13:52:22 2026   Attr: attributes-charset
+Mon Nov  2 13:52:22 2026   Value: utf-8
+Mon Nov  2 13:52:22 2026   Keyword: utf-8
+Mon Nov  2 13:52:22 2026   Attr: attributes-natural-language
+Mon Nov  2 13:52:22 2026   Value: en-us
+Mon Nov  2 13:52:22 2026   Keyword: en-us
+Mon Nov  2 13:52:22 2026   Attr: status-message
+Mon Nov  2 13:52:22 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:52:22 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:52:22 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:52:22 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:52:22 2026   - Too few IPP attributes: 3 (30 or more expected)
+Mon Nov  2 13:52:22 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:52:22 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:52:22 2026 Full list of all IPP attributes:
+Mon Nov  2 13:52:22 2026   Attr: attributes-charset
+Mon Nov  2 13:52:22 2026   Value: utf-8
+Mon Nov  2 13:52:22 2026   Keyword: utf-8
+Mon Nov  2 13:52:22 2026   Attr: attributes-natural-language
+Mon Nov  2 13:52:22 2026   Value: en-us
+Mon Nov  2 13:52:22 2026   Keyword: en-us
+Mon Nov  2 13:52:22 2026   Attr: status-message
+Mon Nov  2 13:52:22 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:52:22 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:52:22 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:52:22 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:52:22 2026   - Too few IPP attributes: 6 (30 or more expected)
+Mon Nov  2 13:52:22 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:52:22 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:52:22 2026 Full list of all IPP attributes:
+Mon Nov  2 13:52:22 2026   Attr: attributes-charset
+Mon Nov  2 13:52:22 2026   Value: utf-8
+Mon Nov  2 13:52:22 2026   Keyword: utf-8
+Mon Nov  2 13:52:22 2026   Attr: attributes-natural-language
+Mon Nov  2 13:52:22 2026   Value: en-us
+Mon Nov  2 13:52:22 2026   Keyword: en-us
+Mon Nov  2 13:52:22 2026   Attr: status-message
+Mon Nov  2 13:52:22 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:52:22 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:52:22 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:52:22 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:52:22 2026   - Too few IPP attributes: 9 (30 or more expected)
+Mon Nov  2 13:52:22 2026 No further fallback available, giving up
+Mon Nov  2 13:52:22 2026 
+Mon Nov  2 13:52:22 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:631/printers/LabPrinter).
+Mon Nov  2 13:52:22 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:52:22 2026 129371584496576 listening
+Mon Nov  2 13:56:03 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:56:03 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:56:03 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:56:03 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:56:03 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 631; Remote queue name: LabPrinter; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:56:03 2026 129371584496576 Found CUPS queue/class: LabPrinter on host 172.18.0.1.
+Mon Nov  2 13:56:03 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:56:03 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:56:03 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 631, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:56:03 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:56:03 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:56:03 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:56:03 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:56:03 2026 Full list of all IPP attributes:
+Mon Nov  2 13:56:03 2026   Attr: attributes-charset
+Mon Nov  2 13:56:03 2026   Value: utf-8
+Mon Nov  2 13:56:03 2026   Keyword: utf-8
+Mon Nov  2 13:56:03 2026   Attr: attributes-natural-language
+Mon Nov  2 13:56:03 2026   Value: en-us
+Mon Nov  2 13:56:03 2026   Keyword: en-us
+Mon Nov  2 13:56:03 2026   Attr: status-message
+Mon Nov  2 13:56:03 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:56:03 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:56:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:56:03 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:56:03 2026   - Too few IPP attributes: 3 (30 or more expected)
+Mon Nov  2 13:56:03 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:56:03 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:56:03 2026 Full list of all IPP attributes:
+Mon Nov  2 13:56:03 2026   Attr: attributes-charset
+Mon Nov  2 13:56:03 2026   Value: utf-8
+Mon Nov  2 13:56:03 2026   Keyword: utf-8
+Mon Nov  2 13:56:03 2026   Attr: attributes-natural-language
+Mon Nov  2 13:56:03 2026   Value: en-us
+Mon Nov  2 13:56:03 2026   Keyword: en-us
+Mon Nov  2 13:56:03 2026   Attr: status-message
+Mon Nov  2 13:56:03 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:56:03 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:56:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:56:03 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:56:03 2026   - Too few IPP attributes: 6 (30 or more expected)
+Mon Nov  2 13:56:03 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:56:03 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:56:03 2026 Full list of all IPP attributes:
+Mon Nov  2 13:56:03 2026   Attr: attributes-charset
+Mon Nov  2 13:56:03 2026   Value: utf-8
+Mon Nov  2 13:56:03 2026   Keyword: utf-8
+Mon Nov  2 13:56:03 2026   Attr: attributes-natural-language
+Mon Nov  2 13:56:03 2026   Value: en-us
+Mon Nov  2 13:56:03 2026   Keyword: en-us
+Mon Nov  2 13:56:03 2026   Attr: status-message
+Mon Nov  2 13:56:03 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:56:03 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:56:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:56:03 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:56:03 2026   - Too few IPP attributes: 9 (30 or more expected)
+Mon Nov  2 13:56:03 2026 No further fallback available, giving up
+Mon Nov  2 13:56:03 2026 
+Mon Nov  2 13:56:03 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:631/printers/LabPrinter).
+Mon Nov  2 13:56:03 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:56:03 2026 129371584496576 listening
+Mon Nov  2 13:57:03 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 13:57:03 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 13:57:03 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 13:57:03 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 13:57:03 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 631; Remote queue name: LabPrinter; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 13:57:03 2026 129371584496576 Found CUPS queue/class: LabPrinter on host 172.18.0.1.
+Mon Nov  2 13:57:03 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 13:57:03 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 13:57:03 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 631, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 13:57:03 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 13:57:03 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 13:57:03 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 13:57:03 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:57:03 2026 Full list of all IPP attributes:
+Mon Nov  2 13:57:03 2026   Attr: attributes-charset
+Mon Nov  2 13:57:03 2026   Value: utf-8
+Mon Nov  2 13:57:03 2026   Keyword: utf-8
+Mon Nov  2 13:57:03 2026   Attr: attributes-natural-language
+Mon Nov  2 13:57:03 2026   Value: en-us
+Mon Nov  2 13:57:03 2026   Keyword: en-us
+Mon Nov  2 13:57:03 2026   Attr: status-message
+Mon Nov  2 13:57:03 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:57:03 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:57:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:57:03 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:57:03 2026   - Too few IPP attributes: 3 (30 or more expected)
+Mon Nov  2 13:57:03 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 13:57:03 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:57:03 2026 Full list of all IPP attributes:
+Mon Nov  2 13:57:03 2026   Attr: attributes-charset
+Mon Nov  2 13:57:03 2026   Value: utf-8
+Mon Nov  2 13:57:03 2026   Keyword: utf-8
+Mon Nov  2 13:57:03 2026   Attr: attributes-natural-language
+Mon Nov  2 13:57:03 2026   Value: en-us
+Mon Nov  2 13:57:03 2026   Keyword: en-us
+Mon Nov  2 13:57:03 2026   Attr: status-message
+Mon Nov  2 13:57:03 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:57:03 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:57:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:57:03 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:57:03 2026   - Too few IPP attributes: 6 (30 or more expected)
+Mon Nov  2 13:57:03 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 13:57:03 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:631/printers/LabPrinter
+Mon Nov  2 13:57:03 2026 Full list of all IPP attributes:
+Mon Nov  2 13:57:03 2026   Attr: attributes-charset
+Mon Nov  2 13:57:03 2026   Value: utf-8
+Mon Nov  2 13:57:03 2026   Keyword: utf-8
+Mon Nov  2 13:57:03 2026   Attr: attributes-natural-language
+Mon Nov  2 13:57:03 2026   Value: en-us
+Mon Nov  2 13:57:03 2026   Keyword: en-us
+Mon Nov  2 13:57:03 2026   Attr: status-message
+Mon Nov  2 13:57:03 2026   Value: The printer or class does not exist.
+Mon Nov  2 13:57:03 2026   Keyword: The printer or class does not exist.
+Mon Nov  2 13:57:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 13:57:03 2026   - Required IPP attribute uri-security-supported not found
+Mon Nov  2 13:57:03 2026   - Too few IPP attributes: 9 (30 or more expected)
+Mon Nov  2 13:57:03 2026 No further fallback available, giving up
+Mon Nov  2 13:57:03 2026 
+Mon Nov  2 13:57:03 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:631/printers/LabPrinter).
+Mon Nov  2 13:57:03 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 13:57:03 2026 129371584496576 listening
+Mon Nov  2 14:05:03 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:05:03 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:05:03 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:05:03 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:05:03 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: evilprinter; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:05:03 2026 129371584496576 Found CUPS queue/class: evilprinter on host 172.18.0.1.
+Mon Nov  2 14:05:03 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:05:03 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:05:03 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:05:03 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:05:03 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:05:03 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:05:03 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/evilprinter failed: Success
+Mon Nov  2 14:05:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 14:05:03 2026   - No response
+Mon Nov  2 14:05:03 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 14:05:03 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/evilprinter failed: Success
+Mon Nov  2 14:05:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 14:05:03 2026   - No response
+Mon Nov  2 14:05:03 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 14:05:03 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/evilprinter failed: Service Unavailable
+Mon Nov  2 14:05:03 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 14:05:03 2026   - No response
+Mon Nov  2 14:05:03 2026 No further fallback available, giving up
+Mon Nov  2 14:05:03 2026 
+Mon Nov  2 14:05:03 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/evilprinter).
+Mon Nov  2 14:05:03 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:05:03 2026 129371584496576 listening
+Mon Nov  2 14:09:12 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:09:12 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:09:12 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:09:12 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:09:12 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: v1state; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:09:12 2026 129371584496576 Found CUPS queue/class: v1state on host 172.18.0.1.
+Mon Nov  2 14:09:12 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:09:12 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:09:12 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:09:12 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:09:12 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:09:12 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:09:12 2026 get-printer-attributes: Cannot connect to printer with URI ipp://172.18.0.1:9999/printers/v1state.
+Mon Nov  2 14:09:12 2026 
+Mon Nov  2 14:09:12 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/v1state).
+Mon Nov  2 14:09:12 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:09:12 2026 129371584496576 listening
+Mon Nov  2 14:10:06 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:10:06 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:10:06 2026 129371584496576 incorrect browse packet format
+Mon Nov  2 14:10:11 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:10:11 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:10:11 2026 129371584496576 incorrect browse packet format
+Mon Nov  2 14:10:32 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:10:32 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:10:32 2026 129371584496576 incorrect browse packet format
+Mon Nov  2 14:15:51 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:15:51 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:15:51 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:15:51 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:15:51 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: v3port; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:15:51 2026 129371584496576 Found CUPS queue/class: v3port on host 172.18.0.1.
+Mon Nov  2 14:15:51 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:15:51 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:15:51 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:15:51 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:15:51 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:15:51 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:15:51 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/v3port failed: Success
+Mon Nov  2 14:15:51 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 14:15:51 2026   - No response
+Mon Nov  2 14:15:51 2026 The server doesn't support IPP2.0 request, trying IPP1.1 request
+Mon Nov  2 14:15:51 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/v3port failed: Success
+Mon Nov  2 14:15:51 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 14:15:51 2026   - No response
+Mon Nov  2 14:15:51 2026 The server doesn't support the standard IPP request, trying request without media-col
+Mon Nov  2 14:15:51 2026 Request for IPP attributes (get-printer-attributes) for printer with URI ipp://172.18.0.1:9999/printers/v3port failed: Service Unavailable
+Mon Nov  2 14:15:51 2026 get-printer-attributes IPP request failed:
+Mon Nov  2 14:15:51 2026   - No response
+Mon Nov  2 14:15:51 2026 No further fallback available, giving up
+Mon Nov  2 14:15:51 2026 
+Mon Nov  2 14:15:51 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/v3port).
+Mon Nov  2 14:15:51 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:15:51 2026 129371584496576 listening
+Mon Nov  2 14:16:23 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:16:23 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:16:23 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:16:23 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:16:23 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood1; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:16:23 2026 129371584496576 Found CUPS queue/class: flood1 on host 172.18.0.1.
+Mon Nov  2 14:16:23 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:16:23 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:16:23 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:16:23 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:16:23 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:16:23 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:16:23 2026 get-printer-attributes: Cannot connect to printer with URI ipp://172.18.0.1:9999/printers/flood1.
+Mon Nov  2 14:16:23 2026 
+Mon Nov  2 14:16:23 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood1).
+Mon Nov  2 14:16:23 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:16:23 2026 129371584496576 listening
+Mon Nov  2 14:16:24 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:16:24 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:16:24 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:16:24 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:16:24 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood2; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:16:24 2026 129371584496576 Found CUPS queue/class: flood2 on host 172.18.0.1.
+Mon Nov  2 14:16:24 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:16:24 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:16:24 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:16:24 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:16:24 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:16:24 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:16:24 2026 get-printer-attributes: Cannot connect to printer with URI ipp://172.18.0.1:9999/printers/flood2.
+Mon Nov  2 14:16:24 2026 
+Mon Nov  2 14:16:24 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood2).
+Mon Nov  2 14:16:24 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:16:24 2026 129371584496576 listening
+Mon Nov  2 14:16:24 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:16:24 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:16:24 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:16:24 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:16:24 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood3; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:16:24 2026 129371584496576 Found CUPS queue/class: flood3 on host 172.18.0.1.
+Mon Nov  2 14:16:24 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:16:24 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:16:24 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:16:24 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:16:24 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:16:24 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:16:24 2026 get-printer-attributes: Cannot connect to printer with URI ipp://172.18.0.1:9999/printers/flood3.
+Mon Nov  2 14:16:24 2026 
+Mon Nov  2 14:16:24 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood3).
+Mon Nov  2 14:16:24 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:16:24 2026 129371584496576 listening
+Mon Nov  2 14:16:25 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:16:25 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:16:25 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:16:25 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:16:25 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood4; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:16:25 2026 129371584496576 Found CUPS queue/class: flood4 on host 172.18.0.1.
+Mon Nov  2 14:16:25 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:16:25 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:16:25 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:16:25 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:16:25 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:16:25 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:16:25 2026 get-printer-attributes: Cannot connect to printer with URI ipp://172.18.0.1:9999/printers/flood4.
+Mon Nov  2 14:16:25 2026 
+Mon Nov  2 14:16:25 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood4).
+Mon Nov  2 14:16:25 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:16:25 2026 129371584496576 listening
+Mon Nov  2 14:16:25 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:16:25 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:16:25 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:16:25 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:16:25 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood5; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:16:25 2026 129371584496576 Found CUPS queue/class: flood5 on host 172.18.0.1.
+Mon Nov  2 14:16:25 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:16:25 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:16:25 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:16:25 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:16:25 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:16:25 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:16:25 2026 get-printer-attributes: Cannot connect to printer with URI ipp://172.18.0.1:9999/printers/flood5.
+Mon Nov  2 14:16:25 2026 
+Mon Nov  2 14:16:25 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood5).
+Mon Nov  2 14:16:25 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:16:25 2026 129371584496576 listening
+Mon Nov  2 14:16:26 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:16:26 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:16:26 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:16:26 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:16:26 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood6; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:16:26 2026 129371584496576 Found CUPS queue/class: flood6 on host 172.18.0.1.
+Mon Nov  2 14:16:26 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:16:26 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:16:26 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:16:26 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:16:26 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:16:26 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:16:26 2026 get-printer-attributes: Cannot connect to printer with URI ipp://172.18.0.1:9999/printers/flood6.
+Mon Nov  2 14:16:26 2026 
+Mon Nov  2 14:16:26 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood6).
+Mon Nov  2 14:16:26 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:16:26 2026 129371584496576 listening
+Mon Nov  2 14:16:26 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:16:26 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:16:26 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:16:26 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:16:26 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood7; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:16:26 2026 129371584496576 Found CUPS queue/class: flood7 on host 172.18.0.1.
+Mon Nov  2 14:16:26 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:16:26 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:16:26 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:16:26 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:16:26 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:16:26 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:16:26 2026 get-printer-attributes: Cannot connect to printer with URI ipp://172.18.0.1:9999/printers/flood7.
+Mon Nov  2 14:16:26 2026 
+Mon Nov  2 14:16:26 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood7).
+Mon Nov  2 14:16:26 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:16:26 2026 129371584496576 listening
+Mon Nov  2 14:16:27 2026 129371584496576 process_browse_data() in THREAD 129371584496576
+Mon Nov  2 14:16:27 2026 129371584496576 browse packet received from 172.18.0.1
+Mon Nov  2 14:16:27 2026 129371584496576 process_browse_data: location: |lab|
+Mon Nov  2 14:16:27 2026 129371584496576 process_browse_data: info: |Evil Printer|
+Mon Nov  2 14:16:27 2026 129371584496576 CUPS browsing: Remote host: 172.18.0.1; Port: 9999; Remote queue name: flood8; Service Name: Evil Printer @ 172.18.0.1
+Mon Nov  2 14:16:27 2026 129371584496576 Found CUPS queue/class: flood8 on host 172.18.0.1.
+Mon Nov  2 14:16:27 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov  2 14:16:27 2026 129371584496576 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov  2 14:16:27 2026 129371584496576 Matching printer "Evil_Printer_172_18_0_1" with properties Host = "172.18.0.1", Port = 9999, Service Name = "Evil Printer @ 172.18.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov  2 14:16:27 2026 129371584496576 All BrowseFilter lines matched or skipped, accepting printer Evil_Printer_172_18_0_1
+Mon Nov  2 14:16:27 2026 129371584496576 update_netifs() in THREAD 129371584496576
+Mon Nov  2 14:16:27 2026 129371584496576 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, a3b852da1915, 172.18.0.2*), lo (::1)
+Mon Nov  2 14:16:27 2026 get-printer-attributes: Cannot connect to printer with URI ipp://172.18.0.1:9999/printers/flood8.
+Mon Nov  2 14:16:27 2026 
+Mon Nov  2 14:16:27 2026 129371584496576 get-printer-attributes IPP call failed on printer Evil_Printer_172_18_0_1 (ipp://172.18.0.1:9999/printers/flood8).
+Mon Nov  2 14:16:27 2026 129371584496576 ERROR: Unable to create print queue, ignoring printer.
+Mon Nov  2 14:16:27 2026 129371584496576 listening

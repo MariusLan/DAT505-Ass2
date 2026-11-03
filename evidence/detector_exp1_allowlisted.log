@@ -1,0 +1,54 @@
+14:55:50 [INFO] Listening on br-60480b7c1bbb (filter: udp port 631 or tcp)
+14:55:50 [INFO] Known printers: {'172.18.0.50': {'ip': '172.18.0.50', 'name': 'OfficeLaser', 'port': '631'}, '172.18.0.51': {'ip': '172.18.0.51', 'name': 'ReceptionMFP', 'port': '631'}, '172.18.0.1': {'ip': '172.18.0.1', 'name': 'LabPrinter', 'port': '631'}}
+14:56:03 [INFO] Captured: Ether / IP / UDP 172.18.0.1:631 > 172.18.0.2:631 / Raw
+14:56:03 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:631/printers/LabPrinter', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp S
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 SA
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp S
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 SA
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 PA / Raw
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp FA
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp FA
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:ipp > 172.18.0.1:39446 FA
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:39446 > 172.18.0.2:ipp A
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.1:ipp > 172.18.0.2:48708 FA
+14:56:03 [INFO] Captured: Ether / IP / TCP 172.18.0.2:48708 > 172.18.0.1:ipp A

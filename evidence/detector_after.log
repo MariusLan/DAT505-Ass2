@@ -1,0 +1,6 @@
+16:52:42 [INFO] Listening on br-60480b7c1bbb (filter: udp port 631 or tcp)
+16:52:42 [INFO] Known printers: {}
+16:53:26 [INFO] Captured: Ether / IP / UDP 172.18.0.1:8631 > 172.18.0.2:631 / Raw
+16:53:26 [INFO] Parsed advertisement: {'type': '0x1000002', 'state': '3', 'uri': 'http://172.18.0.1:8631/printers/testprinter', 'location': 'lab', 'info': 'Evil Printer', 'make_model': 'Generic PostScript'}
+16:53:26 [WARNING] [UNAUTHORIZED AD] 172.18.0.1 advertised 172.18.0.1:8631
+16:53:26 [WARNING] [MALFORMED] not known IP: 172.18.0.1; unexpected port number: 8631 from 172.18.0.1: http://172.18.0.1:8631/printers/testprinter

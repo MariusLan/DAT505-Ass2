@@ -1,0 +1,4 @@
+ip,name,port
+172.18.0.50,OfficeLaser,631
+172.18.0.51,ReceptionMFP,631
+172.18.0.1,LabPrinter,631
